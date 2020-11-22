@@ -1,0 +1,119 @@
+Drainage,Predation,Population,Family,Trt,Proportion
+Guanapo,High,Guanapo,GH206,NP,0
+Guanapo,High,Guanapo,GH210,NP,0
+Guanapo,High,Guanapo,GH202,NP,0
+Guanapo,High,Guanapo,GH220,NP,0
+Guanapo,High,Guanapo,GH215,NP,0
+Guanapo,High,Guanapo,GH230,NP,0.2
+Guanapo,High,Guanapo,GH204,NP,0
+Guanapo,High,Guanapo,GH207,NP,0
+Guanapo,High,Guanapo,GH212,NP,0
+Guanapo,High,Guanapo,GH209,NP,0
+Guanapo,High,Guanapo,GH216,NP,0
+Guanapo,High,Guanapo,GH211,NP,0
+Guanapo,High,Guanapo,GH221,NP,0.2
+Guanapo,High,Guanapo,GH223,NP,0
+Guanapo,High,Guanapo,GH224,NP,0
+Guanapo,High,Guanapo,GH218,NP,0
+Guanapo,High,Guanapo,GH205,NP,0
+Guanapo,High,Guanapo,GH214,NP,0
+Guanapo,High,Guanapo,GH219,NP,0
+Guanapo,High,Guanapo,GH208,NP,0
+Guanapo,High,Guanapo,GH217,NP,0
+Guanapo,High,Guanapo,GH203,NP,0
+Guanapo,High,Guanapo,GH213,NP,0
+Guanapo,High,Guanapo,GH201,NP,0
+Guanapo,Low,Taylor,TY1,NP,0
+Guanapo,Low,Taylor,TY2,NP,0
+Guanapo,Low,Taylor,TY3,NP,0
+Guanapo,Low,Taylor,TY4,NP,0
+Guanapo,Low,Taylor,TY7,NP,0
+Guanapo,Low,Taylor,TY6,NP,0
+Guanapo,Low,Taylor,TY5,NP,0
+Guanapo,Low,Taylor,TY4,NP,0
+Guanapo,Low,Taylor,TY3,NP,0.2
+Guanapo,Low,Taylor,TY2,NP,0
+Guanapo,Low,Taylor,TY1,NP,0
+Guanapo,Low,Taylor,TY1,P,0.6
+Guanapo,Low,Taylor,TY2,P,0
+Guanapo,Low,Taylor,TY3,P,0.6
+Guanapo,Low,Taylor,TY4,P,0.4
+Guanapo,Low,Taylor,TY5,P,1
+Guanapo,Low,Taylor,TY6,P,1
+Guanapo,Low,Taylor,TY7,P,1
+Guanapo,Low,Taylor,TY8,P,1
+Guanapo,Low,Taylor,TY9,P,0.8
+Guanapo,Low,Taylor,TY10,P,0.4
+Guanapo,Low,Taylor,TY11,P,0.8
+Guanapo,Low,Taylor,TY2,P,0.2
+Guanapo,Low,Taylor,TY1,P,0.8
+Guanapo,Low,Taylor,TY3,P,1
+Guanapo,High,Guanapo,GH217,P,0.6
+Guanapo,High,Guanapo,GH207,P,0.8
+Guanapo,High,Guanapo,GH220,P,0.6
+Guanapo,High,Guanapo,GH209,P,0
+Guanapo,High,Guanapo,GH221,P,0.2
+Guanapo,High,Guanapo,GH225,P,0.2
+Guanapo,High,Guanapo,GH204,P,0.6
+Guanapo,High,Guanapo,GH215,P,0.2
+Guanapo,High,Guanapo,GH218,P,0.4
+Guanapo,High,Guanapo,GH205,P,0.4
+Guanapo,High,Guanapo,GH219,P,1
+Guanapo,High,Guanapo,GH206,P,1
+Guanapo,High,Guanapo,GH211,P,1
+Guanapo,High,Guanapo,GH202,P,0.4
+Guanapo,High,Guanapo,GH208,P,0.6
+Guanapo,High,Guanapo,GH203,P,0.6
+Guanapo,High,Guanapo,GH224,P,1
+Guanapo,High,Guanapo,GH223,P,1
+Guanapo,High,Guanapo,GH214,P,0.8
+Guanapo,High,Guanapo,GH201,P,1
+Guanapo,High,Guanapo,GH230,P,
+Yara,High,Yara High,YH112,NP,0
+Yara,High,Yara High,YH113,NP,0
+Yara,High,Yara High,YH114,NP,0.05
+Yara,High,Yara High,YH115,NP,0
+Yara,High,Yara High,YH116,NP,0
+Yara,High,Yara High,YH117,NP,0
+Yara,High,Yara High,YH118,NP,0.133333333
+Yara,High,Yara High,YH119,NP,0
+Yara,High,Yara High,YH120,NP,0
+Yara,High,Yara High,YH123,NP,0.2
+Yara,High,Yara High,YH124,NP,0
+Yara,High,Yara High,YH126,NP,0
+Yara,High,Yara High,YH127,NP,0
+Yara,High,Yara High,YH112,P,0.9
+Yara,High,Yara High,YH113,P,0.4
+Yara,High,Yara High,YH114,P,0.55
+Yara,High,Yara High,YH115,P,0.2
+Yara,High,Yara High,YH116,P,0.342857143
+Yara,High,Yara High,YH117,P,0.8
+Yara,High,Yara High,YH118,P,1
+Yara,High,Yara High,YH119,P,0.52
+Yara,High,Yara High,YH120,P,0.933333333
+Yara,High,Yara High,YH123,P,0.866666667
+Yara,High,Yara High,YH124,P,0.4
+Yara,High,Yara High,YH126,P,0.6
+Yara,High,Yara High,YH127,P,0.45
+Yara,Low,Yara Low,YL112,NP,0
+Yara,Low,Yara Low,YL113,NP,0
+Yara,Low,Yara Low,YL114,NP,0
+Yara,Low,Yara Low,YL116,NP,0.32
+Yara,Low,Yara Low,YL117,NP,0
+Yara,Low,Yara Low,YL118,NP,0.066666667
+Yara,Low,Yara Low,YL121,NP,0.2
+Yara,Low,Yara Low,YL122,NP,0.05
+Yara,Low,Yara Low,YL123,NP,0.15
+Yara,Low,Yara Low,YL124,NP,0
+Yara,Low,Yara Low,YL125,NP,0
+Yara,Low,Yara Low,YL112,P,1
+Yara,Low,Yara Low,YL113,P,0.466666667
+Yara,Low,Yara Low,YL114,P,0.5
+Yara,Low,Yara Low,YL116,P,1
+Yara,Low,Yara Low,YL117,P,1
+Yara,Low,Yara Low,YL118,P,0.466666667
+Yara,Low,Yara Low,YL121,P,0.55
+Yara,Low,Yara Low,YL122,P,0.95
+Yara,Low,Yara Low,YL123,P,0.7
+Yara,Low,Yara Low,YL124,P,0
+Yara,Low,Yara Low,YL125,P,1
