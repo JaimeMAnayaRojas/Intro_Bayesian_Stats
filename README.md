@@ -1,8 +1,11 @@
 # Introduction to Bayesian Statistic for Experimental Ecology
 
-In this repository, you can find the examples used during the lecture on for the Experimental Ecology module. 
+In this repository, you can find a short introduction to Bayesian statistical inference using `Stan` via `R`. If you are familiar with `Jupyter Notebooks` you can follow the examples done in the lecture in the "Introduction Notebook.ipynb" file. Otherwise, you can find the `R code` in the `\R` folder. 
 
-The easiest way to use it is to clone (download) this repository and run it on your local machine, if you want to clone it via GitHub go ahead, [here](https://www.youtube.com/watch?v=E2d91v1Twcc&t=351s)
+For an introduction to **Jupyter Notebooks** and how to install it togeter with `R` follow instruction in the next link ([Click here](https://www.youtube.com/watch?v=gwRhPojbINI)) .
+
+
+The easiest way to use this reoisutiry it is to clone (download) it and run it on your local machine, if you want to clone it via GitHub go ahead, [here](https://www.youtube.com/watch?v=E2d91v1Twcc&t=351s)
  you can find a nice tutorial on how to do it. 
 
 # Are you new to R?
