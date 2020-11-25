@@ -2,7 +2,14 @@
 This is something you have to do only once.
 
 - to install `R` go to this webpage, download it and follow the instructions [click](https://www.r-project.org/)
-- then, open `R,` copy and paste the following text without the `#.` This process will take some minutes.
+
+
+- Installing `R-studio`
+
+The best way to develop R code in your computer is using R-studio, it is a nice interface that help you a lot in the process of writing the code, interacting with R, and so many more things...
+
+[https://rstudio.com/products/rstudio/](https://rstudio.com/products/rstudio/)
+
 
 # Are you new to R?
 ## Don't worry, there is a lot of help out there. You can start with any of the following tutorials:
@@ -11,7 +18,7 @@ This is something you have to do only once.
 [tutorial 2](https://www.youtube.com/watch?v=_V8eKsto3Ug)
 
 
-## If you want to use the Jupyter Notebooks, install python3 and Anaconda in your computer
+# Jupyter Notebooks AND `R`, install python3 and Anaconda in your computer
 
 Follow the instructions in this page
 
@@ -21,13 +28,6 @@ Follow the instructions in this page
 https://www.datacamp.com/community/blog/jupyter-notebook-r
 
 You can learn more about Jupyter Notebooks  in this video [click](https://www.youtube.com/watch?v=jZ952vChhuI) 
-
-
-# Installing `R-studio`
-
-The best way to develop R code in your computer is using R-studio, it is a nice interface that help you a lot in the process of writing the code, interacting with R, and so many more things...
-
-[https://rstudio.com/products/rstudio/](https://rstudio.com/products/rstudio/)
 
 
 # Introduction to Bayesian Statistics for Experimental Ecology
