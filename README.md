@@ -2,7 +2,9 @@
 
 In this repository, you can find a short introduction to Bayesian statistical inference using `Stan` via `R`. If you are familiar with `Jupyter Notebooks` you can follow the examples done in the lecture in the "Introduction Notebook.ipynb" file. Otherwise, you can find the `R code` in the `\R` folder. 
 
-For an introduction to **Jupyter Notebooks** and how to install it togeter with `R` follow instruction in the next link ([Click here](https://www.youtube.com/watch?v=gwRhPojbINI)) .
+For an introduction to **Jupyter Notebooks** and how to install it togeter with `R` follow instruction in the next link ([Click here](https://www.youtube.com/watch?v=gwRhPojbINI)). Do not create an r-enviroment in Anaconda, follow the instructinos here to make R available to the notebooks
+
+https://www.datacamp.com/community/blog/jupyter-notebook-r
 
 
 The easiest way to use this reoisutiry it is to clone (download) it and run it on your local machine, if you want to clone it via GitHub go ahead, [here](https://www.youtube.com/watch?v=E2d91v1Twcc&t=351s)
