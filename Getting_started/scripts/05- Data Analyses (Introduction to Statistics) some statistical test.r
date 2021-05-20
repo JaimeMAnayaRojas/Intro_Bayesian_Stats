@@ -3,6 +3,8 @@
 rm(list=ls())
 
 # load the libraries
+
+
 library(ggplot2)
 library(dplyr)
 
@@ -89,6 +91,8 @@ autoplot(model_pgr, smooth.colour = NA)
 
 anova(model_pgr)
 
+str(plant_gr)
+
 summary(model_pgr)
 
 # Plot the regression line
@@ -144,3 +148,97 @@ ggplot(daphnia, aes(x= parasite, y= growth.rate)) +
     geom_boxplot()
 
 #summary(daph_mod2)
+
+growth.moo <- read.csv('datasets-master/growth.csv')
+glimpse(growth.moo)
+
+growth.moo$diet <- factor(growth.moo$diet)
+levels(growth.moo$diet)
+
+growth.moo$supplement <- factor(growth.moo$supplement)
+levels(growth.moo$supplement)
+
+3*4 # treatment levels
+
+growth.moo <- mutate(growth.moo, 
+                    supplement = relevel(supplement, ref = "control"))
+
+growth.moo$supplement <- factor(growth.moo$supplement)
+levels(growth.moo$supplement)
+
+growth.moo <- mutate(growth.moo, 
+                    diet = relevel(diet, ref = "oats"))
+
+growth.moo$diet <- factor(growth.moo$diet)
+levels(growth.moo$diet)
+
+ggplot(growth.moo, aes(x=supplement, y= gain, colour = diet)) + 
+geom_boxplot()
+
+
+mod.full <- lm(gain ~ diet * supplement, data= growth.moo)
+
+mod.main <- lm(gain ~ diet + supplement, data= growth.moo)
+
+mod.diet <- lm(gain ~ diet, data= growth.moo)
+
+mod.supl <- lm(gain ~ diet * supplement, data= growth.moo)
+
+
+anova(mod.full)
+summary(mod.full)
+
+anova(mod.main)
+
+summary(mod.main)
+
+# Model selection
+
+mod.full <- lm(gain ~ diet * supplement, data= growth.moo) # interaction
+
+mod.main <- lm(gain ~ diet + supplement, data= growth.moo) # main effects
+
+mod.diet <- lm(gain ~ diet, data= growth.moo)
+
+mod.supl <- lm(gain ~  supplement, data= growth.moo)
+
+
+anova(mod.full, mod.main, mod.diet, mod.supl)
+
+AIC(mod.full, mod.main, mod.diet, mod.supl)
+
+
+
+drop1(mod.full)
+
+mod.up1 <- update(mod.full, .~.  -diet:supplement)
+
+anova(mod.up1)
+
+com <- read.csv('datasets-master/compensation.csv')
+# compare the fruit production between grazed and ungrazed plants
+# get more information about the box-plot
+ggplot(com, aes(y=Fruit, x=Grazing))+
+geom_boxplot() + 
+geom_jitter(size = 5, colour= "gray", alpha =0.8, width = 0.25) +
+theme_bw() + 
+ylab("Fruit Production")
+
+ggplot(com, aes(y=Fruit, x=Root, colour= Grazing))+
+geom_point(size = 3) + 
+xlab(label = "Root biomass") +
+ylab("Fruit Production") +
+geom_smooth(method = "lm") +
+#ylim(-50, 120) +  xlim(0, 15) + 
+#geom_hline(yintercept = -41.286) +
+theme_bw()
+
+ancova.1 <- lm(Fruit ~ Grazing * Root, data = com)
+anova(ancova.1)
+
+summary(ancova.1)
+
+com$Root_c <- com$Root - 7
+ancova.2 <- lm(Fruit ~ Grazing * Root_c, data = com)
+anova(ancova.2)
+summary(ancova.2)
