@@ -1,9 +1,9 @@
 
 # Install the necessary packages
 
-install.packages(c("coda","mvtnorm","devtools","loo","dagitty", 'rstan', "brms"))
-library(devtools)
-devtools::install_github("rmcelreath/rethinking")
+# install.packages(c("coda","mvtnorm","devtools","loo","dagitty", 'rstan', "brms"))
+# library(devtools)
+# devtools::install_github("rmcelreath/rethinking")
 
 # After installing the packages you can delete  the code above or out comment by adding an # in front of each line or by selecting the lines and 
 # pressing cntr + shift + c
@@ -189,6 +189,7 @@ m2 <- map2stan(
   
 )
 
+m2brms <- brm(height ~ weight_c*male, family = gaussian(), data = data)
 
 tracerplot(m2)
 precis(m2, digits = 5, prob = .95) # summary statistics with High Probability Density Intervals at 95% i.e. Confidence Interval
