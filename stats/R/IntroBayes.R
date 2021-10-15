@@ -181,15 +181,16 @@ m2 <- map2stan(
     height ~ dnorm( mu , sigma ), # likelihood
     mu <- Intercept + b_weight*weight_c + b_male*male + b_WxM * (weight_c*male), # linear model, including an interaction term 
     Intercept ~ dnorm(134,100), # priors for intercept
-    b_male ~ dnorm(0,10), # priors for the slople
-    b_weight ~ dnorm(0,10), # priors for the slople
-    b_WxM ~ dnorm(0,10), # priors for the slople
+    b_male ~ dnorm(0,10), # priors for the slope
+    b_weight ~ dnorm(0,10), # priors for the slope
+    b_WxM ~ dnorm(0,10), # priors for the slope
     sigma ~ dcauchy(0,10) # priors for model error
   ), data = data, chains = 4, cores = 4, iter = 3000, warmup = 1500, WAIC = TRUE
   
 )
 
 m2brms <- brm(height ~ weight_c*male, family = gaussian(), data = data)
+summary(m2brms)
 
 tracerplot(m2)
 precis(m2, digits = 5, prob = .95) # summary statistics with High Probability Density Intervals at 95% i.e. Confidence Interval
