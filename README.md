@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Intro_Bayesian_Stats
-=======
+
 ## Install `R` and the necessary packages
 This is something you have to do only once.
 
@@ -13,4 +13,4 @@ One of the the best way to develop R code in your computer is using R-studio, it
 
 [https://rstudio.com/products/rstudio/](https://rstudio.com/products/rstudio/)
 
->>>>>>> 84e33d9e62d619f60f3e412bb178d841dac003e3
+
