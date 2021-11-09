@@ -15,6 +15,30 @@ begin
 	using RCall  # Module to run R code in Julia. 
 end
 
+# ╔═╡ a30a0d11-cc9e-4feb-8a16-50e909dc8deb
+md"""
+## If you want to use this notebook interactively, first install Julia in your computer
+
+1. [click: Download and Install Julia](https://julialang.org/)
+
+2. [Open and Install Pluto.jl in Julia] (https://computationalthinking.mit.edu/Fall20/installation/)
+
+3. [Download the file "Bayesian\_Stats_notebook.jl"](https://github.com/JaimeMAnayaRojas/Intro_Bayesian_Stats/blob/main/Getting_started/)
+"""
+
+
+# ╔═╡ e87dc085-264a-4be1-8781-e1fc15f297fb
+md"""
+
+## For a introduction to 'R' and statistics in 'R' feel free to check the material in this repository ([click](https://github.com/JaimeMAnayaRojas/Intro_Bayesian_Stats)) 
+
+"""
+
+# ╔═╡ 494f425c-9282-49e7-a4dd-3e119441b5cd
+md"""
+# Bayesian statistics using Turing in Julia
+"""
+
 # ╔═╡ 4bbe0588-8322-4932-a44f-399940f3ac3b
 md"""
 ## Load your modules in Julia (packages in R)
@@ -388,6 +412,18 @@ md"""
 [Statistical Rethinking lectures](https://www.youtube.com/watch?v=4WVelCswXo4)
 
 [Buy the Statistical Rethinking book](https://www.amazon.de/-/en/Richard-Mcelreath/dp/036713991X/ref=sr_1_1?crid=F657B8T37K5D&keywords=statistical+rethinking+2&qid=1636379414&sprefix=statistical+rethinking+%2Caps%2C205&sr=8-1)
+"""
+
+# ╔═╡ 65042231-4d73-4b67-b146-2401b95673ac
+md"""
+
+
+
+### If you want to check our paper using Bayesian statistics see:
+
+Anaya-Rojas, J. M., Bassar, R. D., Potter, T., Blanchette, A., Callahan, S., Framstead, N., Reznick, D., & Travis, J. (2021). The evolution of size-dependent competitive interactions promotes species coexistence. Journal of Animal Ecology, 90, 2704– 2717. [https://doi.org/10.1111/1365-2656.13577](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2656.13577)
+
+
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -1996,6 +2032,9 @@ version = "0.9.1+5"
 """
 
 # ╔═╡ Cell order:
+# ╟─a30a0d11-cc9e-4feb-8a16-50e909dc8deb
+# ╟─e87dc085-264a-4be1-8781-e1fc15f297fb
+# ╟─494f425c-9282-49e7-a4dd-3e119441b5cd
 # ╟─4bbe0588-8322-4932-a44f-399940f3ac3b
 # ╠═2aa732dc-ca23-48d1-b21a-60b20566aa43
 # ╟─cf9a8e7e-b057-496b-ae2d-b91de58821f3
@@ -2030,9 +2069,9 @@ version = "0.9.1+5"
 # ╟─7cc195a7-4183-4b94-ab6b-0da091ffc116
 # ╟─ecc59c3d-19b7-4bcf-9528-fbfb6630fc64
 # ╠═071c124d-ca9b-40da-9abe-d2af97c03f33
-# ╠═b4bf934e-5024-4ca1-99db-d9b7d4d91f69
 # ╠═b3fa6d23-27ac-4614-a574-aa0ae07eb476
 # ╟─b0a5b208-17aa-4d90-b44b-378dcdaf4ccd
+# ╠═b4bf934e-5024-4ca1-99db-d9b7d4d91f69
 # ╠═79f604ae-4e80-4e28-9ca7-ca91e2779eae
 # ╠═2571bc63-b739-40b7-b7ef-616da782da54
 # ╠═462b3b87-30d0-4ac8-84e0-bfe6266d4550
@@ -2050,5 +2089,6 @@ version = "0.9.1+5"
 # ╠═0b73b7d1-8cf1-4e14-8aef-6e6739b96fd0
 # ╟─207c3de5-1395-431c-a06b-eb0c4652ee34
 # ╟─5c328809-c239-42fb-8ecf-17ce52396f4c
+# ╟─65042231-4d73-4b67-b146-2401b95673ac
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
